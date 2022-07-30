@@ -1,6 +1,13 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+body{
+  background-image: url("../images/sch.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .fa-2x {
 font-size: 2em;
 }
@@ -137,4 +144,38 @@ height: 100%;
     height: 30px; 
     background-color:aliceblue; 
     border-radius: 50%;
+  }
+
+.p{
+    font-size: 60px;
+    left: 32%;
+    top:5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    position: fixed;
+    background-color: rgb(207, 249, 249);
+    border-radius: 20px;
+    padding-right: 20px;
+    border: solid 5px #212121;
+}
+
+.p img{
+  height: 120px;
+}
+
+  @media screen and (max-width:900px) {
+    body{
+      background-size:auto auto ;
+    }
+
+    .p{
+      font-size: 30px;
+      left: 25%;
+      top:5%;
+    }
+
+    .p img{
+      height:50px ;
+    }
+    
   }
