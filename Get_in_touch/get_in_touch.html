@@ -8,6 +8,7 @@
     <!-- add icon link -->
     <link rel = "icon" href = "../images/log.png" type = "image/x-icon">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="get_in_touch.css">
 </head>
 <body>
@@ -17,24 +18,120 @@
             Your browser does not support HTML5 video.
         </video>
         <p class="p">
-            <b>
-            GET IN TOUCH
-            </b>
+            <img src="../images/getintouch.png" alt="education logo">
+            <b>Get In </b><b style="color:rgb(3, 27, 104);">Touch</b>
         </p>
-        <div class="g">
-            <div style="float: left ;">
-            <img src="../images/contact1.png" alt="image" style="height: 350px;">
-            </div>
-            <div>
-                <form>
-                    <input type="text" id="name" placeholder="Your Name" required>
-                    <input type="email" id="email" placeholder="Email id" required>
-                    <input type="text" id="phone" placeholder="Phone no." required>
-                    <textarea id="message" cols="30" rows="4" placeholder="How can we help you"></textarea> 
-                </form>
+
+        <div class="container">
+            <div id="form-main">
+                <div id="form-div">
+                    <form class="montform" id="reused_form" >
+                        <p class="name">
+                            <input name="name" type="text" class="feedback-input" required placeholder="Name" id="name" />
+                        </p>
+                        <p class="email">
+                            <input name="email" type="email" required class="feedback-input" id="email" placeholder="Email" />
+                        </p>
+                        <p class="text">
+                            <textarea name="message" class="feedback-input" id="comment" placeholder="Message"></textarea>
+                        </p>
+                        <div class="submit">
+                            <button type="submit" class="button-blue">SUBMIT</button>
+                            <div class="ease"></div>
+                        </div>
+                    </form>
+                    <div id="error_message" style="width:100%; height:100%; display:none; ">
+                        <h4>
+                            Error
+                        </h4>
+                        Sorry there was an error sending your form. 
+                    </div>
+                    <div id="success_message" style="width:100%; height:100%; display:none; "> <h2>Success! Your Message was Sent Successfully.</h2> </div>
+                </div>
             </div>
         </div>
+
     </div>
+
+    <nav class="main-menu">
+        <ul>
+            <li class="btn noHover" style="margin-bottom:20px ;">
+                <a href="../index.html" >
+                    <img src="../images/log.png" alt="logo" class="l">
+                    <span class="nav-text">
+                        <b>Rishabh Bharatbhai Parmar</b>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="../index.html">
+                    <i class="fa fa-home fa-2x"></i>
+                    <span class="nav-text">
+                        Home
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="../About_me/About.html">
+                    <i class="glyphicon glyphicon-user" style="padding-left: 23px; padding-right: 23px; padding-top:12px ; padding-bottom: 12px;"></i>
+                    <span class="nav-text">
+                        About Me
+                    </span>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="../skills/skills.html">
+                    <i class="fa fa-laptop fa-2x"></i>
+                    <span class="nav-text">
+                        Skills and Ability
+                    </span>
+                </a>
+                
+            </li>
+            <li class="has-subnav">
+                <a href="../Education/education.html">
+                   <i class="glyphicon glyphicon-education" style="padding-left: 23px; padding-right: 23px; padding-top:12px ; padding-bottom: 12px;"></i>
+                    <span class="nav-text">
+                        Education
+                    </span>
+                </a>
+                
+            </li>
+            <li class="has-subnav">
+                <a href="../Projects/Project.html">
+                   <i class="fa fa-folder-open fa-2x"></i>
+                    <span class="nav-text">
+                        Projects
+                    </span>
+                </a>
+               
+            </li>
+            <li>
+                <a href="../Codingarea/coding.html">
+                    <i class="fa fa-bar-chart-o fa-2x"></i>
+                    <span class="nav-text">
+                        Coding Areas
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="../workexp/workexp.html">
+                    <i class="glyphicon glyphicon-lock" style="padding-left: 23px; padding-right: 23px; padding-top:12px ; padding-bottom: 12px;"></i>
+                    <span class="nav-text">
+                       Work Experience
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="../Get_in_touch/get_in_touch.html">
+                   <i class="fa fa-comments-o fa-2x"></i>
+                    <span class="nav-text">
+                        Get In Touch
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
     
 </body>
 </html>
