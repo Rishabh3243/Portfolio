@@ -13,8 +13,75 @@
 <body>
 
     <div class="area">
-
+        <video autoplay muted loop id="myVideo">
+            <source src="../code video.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <p class="p">
+            <img src="../images/coding logo.png" alt="coding logo">
+            <b>Coding </b><b style="color:rgb(106, 1, 106);">Areas</b>
+        </p>
+        <div class="container">
+            <div class="box">
+                <a href="https://www.hackerrank.com/rishabhpar7" >
+                <div class="imgBx">
+                    <img src="../images/hacker rank logo.png" alt="Hacker rank Logo" class="j">
+                </div>
+                <div class="contentBx">
+                    <h2>Hacker Rank</h2>
+                </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="https://www.hackerearth.com/@rishabhpar7">
+                <div class="imgBx">
+                    <img src="../images/havkerearthlogo.png" alt="Hacker earth Logo" class="j">
+                </div>
+                <div class="contentBx">
+                    <h2>Hacker Earth</h2>
+                </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="https://leetcode.com/rishabhpar7/">
+                <div class="imgBx">
+                    <img src="../images/LeetCode_logo_black.png" alt="leetcode Logo" class="j">
+                </div>
+                <div class="contentBx">
+                    <h2>Leet Code</h2>
+                </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="https://auth.geeksforgeeks.org/user/rishabhpar7/profile">
+                <div class="imgBx">
+                    <img src="../images/geeks for geeks.png" alt="geeks for geeks Logo" class="j">
+                </div>
+                <div class="contentBx">
+                    <h2>Geeks for Geeks</h2>
+                </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="https://www.codechef.com/users/rishabh765">
+                <div class="imgBx">
+                    <img src="../images/cc.png" alt="code chef Logo" class="j">
+                </div>
+                <div class="contentBx">
+                    <h2>Code Chef</h2>
+                </div>
+                </a>
+            </div>
+        </div>
     </div>
+
+    <script type="text/javascript" src="../vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
 
     <nav class="main-menu">
         <ul>
