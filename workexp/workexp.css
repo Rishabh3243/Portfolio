@@ -276,7 +276,7 @@ iframe{
   
   /* Make sure that all arrows are pointing leftwards */
   .container::before {
-  left: 60px;
+  left: 0%;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
@@ -292,9 +292,13 @@ iframe{
   left: 0%;
   }
 
+  .left {
+    left: 0%;
+  }
+
   .p{
     font-size: 30px;
-    left: 25%;
+    left: 20%;
     top:5%;
   }
 
@@ -303,11 +307,12 @@ iframe{
   }
 
   iframe{
-    height:fit-content;
-    width: 400px;
+    height:800px;
+    width: 380px;
   }
   .t{
     margin-left: 20%;
+    margin-top: 20%;
   }
 }
 
