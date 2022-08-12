@@ -164,8 +164,8 @@ height: 100%;
 }
 
 iframe{
-  height: 540px;
-  width: 1470px;
+  height: 500px;
+  width: 1450px;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -307,7 +307,7 @@ iframe{
   }
 
   iframe{
-    height:650px;
+    height:620px;
     width: 300px;
   }
   .t{
