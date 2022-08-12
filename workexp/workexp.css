@@ -165,7 +165,7 @@ height: 100%;
 
 iframe{
   height: 500px;
-  width: 1450px;
+  width: 100%;
 }
 
 /* The actual timeline (the vertical ruler) */
