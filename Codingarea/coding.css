@@ -113,6 +113,7 @@ z-index:1000;
 
 .main-menu>ul {
 margin:7px 0;
+position: static;
 }
 
 .main-menu li {
